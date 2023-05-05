@@ -33,7 +33,8 @@ public class Cliente implements Serializable {
 	@Column(name = "cpf_cnpj")
 	private String cpfCnpj;
 	
-	private String rg;
+	@Column(name = "rg_ie")
+	private String rgIe;
 
 	@DateTimeFormat(iso = ISO.DATE_TIME)
 	@Column(name = "data_cadastro")
